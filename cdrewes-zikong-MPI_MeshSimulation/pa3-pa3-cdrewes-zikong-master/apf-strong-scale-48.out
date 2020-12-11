@@ -1,0 +1,15 @@
+IBRUN WARNING: Your job will put more ranks on each node (48) than the cores physically available to each node (24)
+[comet-06-34.sdsc.edu:mpi_rank_0][MPIDI_CH3I_set_affinity] WARNING: You are running 48 MPI processes on a processor that supports up to 24 cores. If you still wish to run in oversubscribed mode, please set MV2_ENABLE_AFFINITY=0 and re-run the program.
+
+[cli_0]: aborting job:
+Fatal error in MPI_Init:
+Other MPI error, error stack:
+MPIR_Init_thread(490): 
+MPID_Init(403).......: 
+
+[comet-06-34.sdsc.edu:mpispawn_0][mtpmi_processops] parse_str() failed with error code -105
+[comet-06-34.sdsc.edu:mpirun_rsh][process_mpispawn_connection] mpispawn_0 from node comet-06-34 aborted: MPISPAWN internal error (6)
+[comet-06-42.sdsc.edu:mpispawn_1][read_size] Unexpected End-Of-File on file descriptor 5. MPI process died?
+[comet-06-42.sdsc.edu:mpispawn_1][read_size] Unexpected End-Of-File on file descriptor 5. MPI process died?
+[comet-06-42.sdsc.edu:mpispawn_1][handle_mt_peer] Error while reading PMI socket. MPI process died?
+Connection to comet-06-42 closed by remote host.

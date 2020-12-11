@@ -1,0 +1,60 @@
+                    CSE 260, Parallel Computation
+                            (FALL 2020)
+           Department of Computer Science and Engineering 	
+                 University of California, San Diego 	
+
+
+               Team Self Evaluation Form, Assignment #3
+
+Each team must submit one copy of this self evaluation form. 
+The members of each team should discuss how they
+worked together and what to write for the evaluation.
+If you worked alone leave column B blank
+
+(1) List the names of your team members:
+
+A: Colin Drewes 
+
+ 
+B: Zihao Kong
+
+ 
+ 
+(2) Estimate how much time each team member devoted to this project, in HOURS.
+
+  	                        A 	       B 
+meetings 	  	  	1              1  
+coding 	  	  	        40             15    
+writeup 	  	  	6              2 
+planning (alone) 	  	5  	       2
+total (including meetings) 	52  	       20
+
+
+(3) Discuss the following.
+(a) If you worked in a team, what were the major responsibilities
+    of each team member
+    Colin wrote significant amounts of code.
+    Zihao is writing the code in another branch, Colin writes the code in the main branch, and write most of the report 
+
+(b) Did you complete the assignment?
+    Yes we did
+
+(c) What were your major strengths and weaknesses in doing this
+    assignment (individually or in a team)?
+    If in a team, also discuss how your team worked together.
+    Very competent in coding which made development much faster.
+    
+    Strengths is that we know how to optimize the algorithm quite well and we communicate well, we know what each other is talking about
+    
+    
+(d) What  lessons did you learn from these events.
+    It's good when team is working on the same page
+
+(e) If in a team, whether and how you plan to change the way
+    your work together .
+    No
+
+(f) Anything else that comes to mind.
+    No
+
+

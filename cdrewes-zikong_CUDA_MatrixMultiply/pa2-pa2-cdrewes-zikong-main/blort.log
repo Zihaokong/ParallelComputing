@@ -1,0 +1,17 @@
+==23232== NVPROF is profiling process 23232, command: ./mmpy -v -D -n 256
+==23232== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==23232== Profiling application: ./mmpy -v -D -n 256
+==23232== Profiling result:
+==23232== Metric result:
+Invocations                               Metric Name                        Metric Description         Min         Max         Avg
+Device "Tesla K80 (0)"
+    Kernel: matMul(int, double*, double*, double*)
+        101                  gld_requested_throughput          Requested Global Load Throughput  3.7590GB/s  3.8468GB/s  3.8066GB/s
+        101                  gst_requested_throughput         Requested Global Store Throughput  3.7590GB/s  3.8468GB/s  3.8066GB/s
+        101                            gld_efficiency             Global Memory Load Efficiency     100.00%     100.00%     100.00%
+        101                            gst_efficiency            Global Memory Store Efficiency     100.00%     100.00%     100.00%
+        101                    shared_replay_overhead             Shared Memory Replay Overhead    0.250244    0.250244    0.250244
+        101                         shared_efficiency                  Shared Memory Efficiency     100.00%     100.00%     100.00%
+        101                    shared_load_throughput             Shared Memory Load Throughput  962.29GB/s  984.77GB/s  974.49GB/s
+        101                  shared_load_transactions                  Shared Load Transactions      524288      524288      524288
+        101                        alu_fu_utilization      Arithmetic Function Unit Utilization     Mid (4)     Mid (4)     Mid (4)

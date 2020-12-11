@@ -1,0 +1,148 @@
+
+[Simulation begins] Sun Dec  6 16:05:23 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 4 x 24
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:05:30 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 7.06004 sec. [508 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    4 24      Y     2000  7.06 507.6    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:05:35 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 64 x 3
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:05:39 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 4.20135 sec. [853 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    64 3      Y     2000  4.201 853.1    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:05:46 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 6 x 40
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:05:49 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 3.04438 sec. [1.18e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    6 40      Y     2000  3.044 1177    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:06:01 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 32 x 12
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:06:04 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.50217 sec. [1.43e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    32 12      Y     2000  2.502 1432    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:06:25 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 16 x 30
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:06:27 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.43665 sec. [1.47e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    16 30      Y     2000  2.437 1471    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:06:51 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 20 x 24
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:06:53 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.4123 sec. [1.49e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    20 24      Y     2000  2.412 1486    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:07:16 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 8 x 60
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:07:19 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.43301 sec. [1.47e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    8 60      Y     2000  2.433 1473    9.99936e-01 6.74579e-01
+  -----
+slurmstepd: *** JOB 37299156 ON comet-13-13 CANCELLED AT 2020-12-06T16:07:20 DUE TO TIME LIMIT ***
+[comet-13-13.sdsc.edu:mpirun_rsh][signal_processor] Caught signal 15, killing job
+Connection to comet-13-14 closed by remote host.
+Connection to comet-13-48 closed by remote host.
+Connection to comet-13-44 closed by remote host.
+Connection to comet-13-43 closed by remote host.
+Connection to comet-13-32 closed by remote host.
+Connection to comet-13-55 closed by remote host.
+Connection to comet-13-53 closed by remote host.
+Connection to comet-13-42 closed by remote host.
+Connection to comet-13-16 closed by remote host.
+Connection to comet-13-40 closed by remote host.
+Connection to comet-13-38 closed by remote host.
+Connection to comet-13-50 closed by remote host.
+Connection to comet-13-15 closed by remote host.
+Connection to comet-13-34 closed by remote host.
+Connection to comet-13-33 closed by remote host.
+Connection to comet-13-56 closed by remote host.
+Connection to comet-13-54 closed by remote host.
+Connection to comet-13-51 closed by remote host.
+Connection to comet-13-47 closed by remote host.
+Connection to comet-13-13 closed by remote host.

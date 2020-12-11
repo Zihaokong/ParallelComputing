@@ -1,0 +1,90 @@
+
+[Simulation begins] Sun Dec  6 15:58:00 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 4 x 24
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 15:58:07 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 6.99811 sec. [512 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    4 24      Y     2000  6.998 512.1    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 15:58:12 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 32 x 6
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 15:58:16 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 4.00735 sec. [894 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    32 6      Y     2000  4.007 894.4    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 15:58:23 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 6 x 40
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 15:58:26 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 3.01458 sec. [1.19e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    6 40      Y     2000  3.015 1189    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 15:58:38 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 12 x 32
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 15:58:41 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.43918 sec. [1.47e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    12 32      Y     2000  2.439 1469    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 15:59:01 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 16 x 30
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 15:59:04 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.39639 sec. [1.5e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    16 30      Y     2000  2.396 1496    9.99936e-01 6.74579e-01
+  -----

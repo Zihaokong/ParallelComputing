@@ -1,0 +1,104 @@
+
+[Simulation begins] Sun Dec  6 03:47:13 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 1 x 96
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 03:47:33 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74547e-01
+Running Time: 20.1387 sec. [178 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    1 96      Y     2000  20.14 178    9.99936e-01 6.74547e-01
+  -----
+
+[Simulation begins] Sun Dec  6 03:47:40 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 2 x 48
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 03:47:58 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 18.3582 sec. [195 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    2 48      Y     2000  18.36 195.2    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 03:48:05 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 3 x 32
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 03:48:23 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 18.3348 sec. [195 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    3 32      Y     2000  18.33 195.5    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 03:48:30 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 4 x 24
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 03:48:48 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 18.3448 sec. [195 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    4 24      Y     2000  18.34 195.4    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 03:48:55 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 6 x 16
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 03:49:14 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 18.3644 sec. [195 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    6 16      Y     2000  18.36 195.2    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 03:49:20 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 8 x 12
+
+Compiled with MPI ENABLED
+slurmstepd: *** JOB 37293620 ON comet-11-01 CANCELLED AT 2020-12-06T03:49:24 DUE TO TIME LIMIT ***
+[comet-11-01.sdsc.edu:mpirun_rsh][signal_processor] Caught signal 15, killing job
+Connection to comet-11-02 closed by remote host.
+Connection to comet-11-06 closed by remote host.
+Connection to comet-11-05 closed by remote host.
+Connection to comet-11-01 closed by remote host.

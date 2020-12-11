@@ -1,0 +1,442 @@
+
+[Simulation begins] Sun Dec  6 16:18:09 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 64 x 3
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:18:13 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 4.15895 sec. [862 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    64 3      Y     2000  4.159 861.8    9.99936e-01 6.74579e-01
+  -----
+
+[Simulation begins] Sun Dec  6 16:18:19 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 6 x 40
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:18:22 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.95225 sec. [1.21e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    6 40      Y     2000  2.952 1214    9.99936e-01 6.74579e-01
+  -----
+
+ *** The number of processes in the geometry (192)
+     is smaller than the number of avilable cores (384)
+
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 90, pid: 21139) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 282, pid: 15295) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 175, pid: 7643) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 84, pid: 21133) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 356, pid: 7571) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 32, pid: 18324) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 34, pid: 18326) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 215, pid: 22632) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 56, pid: 29887) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 357, pid: 7572) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 68, pid: 1717) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 4, pid: 31800) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 147, pid: 25514) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 362, pid: 7577) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 82, pid: 21131) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 241, pid: 26749) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 380, pid: 19206) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 143, pid: 25510) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 273, pid: 15286) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 307, pid: 28476) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 271, pid: 15284) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 355, pid: 7570) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 341, pid: 5323) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 209, pid: 4217) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 24, pid: 18316) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 370, pid: 19196) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 70, pid: 1719) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 237, pid: 26745) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 2, pid: 31798) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 37, pid: 18329) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 194, pid: 4202) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 381, pid: 19207) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 326, pid: 7293) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 217, pid: 22634) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 179, pid: 7647) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 95, pid: 21144) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 238, pid: 26746) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 145, pid: 25512) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 86, pid: 21135) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 26, pid: 18318) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 0, pid: 31796) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 321, pid: 7288) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 349, pid: 7564) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 156, pid: 21936) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 91, pid: 21140) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 14, pid: 31810) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 266, pid: 18111) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 160, pid: 21940) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 141, pid: 25508) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 353, pid: 7568) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 78, pid: 1727) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 72, pid: 1721) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 76, pid: 1725) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 11, pid: 31807) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 340, pid: 5322) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 155, pid: 25522) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 74, pid: 1723) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 372, pid: 19198) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 185, pid: 7653) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 62, pid: 1711) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 112, pid: 27810) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 239, pid: 26747) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 17, pid: 31813) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 323, pid: 7290) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 213, pid: 22630) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 202, pid: 4210) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 351, pid: 7566) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 118, pid: 21110) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 122, pid: 21115) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 262, pid: 18107) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 279, pid: 15292) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 358, pid: 7573) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 130, pid: 21123) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 88, pid: 21137) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 96, pid: 21145) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 317, pid: 7284) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 364, pid: 7579) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 315, pid: 7282) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 125, pid: 21118) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 270, pid: 15283) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 71, pid: 1720) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 376, pid: 19202) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 294, pid: 28463) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 304, pid: 28473) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 281, pid: 15294) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 198, pid: 4206) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 57, pid: 29888) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 52, pid: 29883) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 50, pid: 29881) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 54, pid: 29885) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 42, pid: 29873) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 40, pid: 29871) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 48, pid: 29879) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 53, pid: 29884) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 339, pid: 5321) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 343, pid: 5325) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 250, pid: 26758) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 235, pid: 26743) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 233, pid: 26741) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 200, pid: 4208) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 274, pid: 15287) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 150, pid: 25517) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 240, pid: 26748) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 152, pid: 25519) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 259, pid: 18104) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 243, pid: 26751) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 206, pid: 4214) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 183, pid: 7651) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 285, pid: 15298) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 268, pid: 18113) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 104, pid: 27802) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 225, pid: 22642) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 267, pid: 18112) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 93, pid: 21142) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 47, pid: 29878) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 296, pid: 28465) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 365, pid: 19191) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 85, pid: 21134) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 46, pid: 29877) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 306, pid: 28475) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 300, pid: 28469) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 170, pid: 21950) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 28, pid: 18320) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 245, pid: 26753) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 21, pid: 18313) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 107, pid: 27805) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 19, pid: 31815) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 79, pid: 1728) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 234, pid: 26742) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 325, pid: 7292) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 210, pid: 4218) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 164, pid: 21944) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 186, pid: 7654) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 151, pid: 25518) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 292, pid: 28461) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 45, pid: 29876) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 110, pid: 27808) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 167, pid: 21947) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 162, pid: 21942) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 172, pid: 21952) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 168, pid: 21948) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 174, pid: 21954) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 158, pid: 21938) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 171, pid: 21951) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 163, pid: 21943) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 166, pid: 21946) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 298, pid: 28467) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 290, pid: 28459) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 301, pid: 28470) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 191, pid: 7659) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 184, pid: 7652) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 187, pid: 7655) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 189, pid: 7657) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 182, pid: 7650) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 193, pid: 7661) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 190, pid: 7658) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 192, pid: 7660) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 180, pid: 7648) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 177, pid: 7645) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 176, pid: 7644) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 178, pid: 7646) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 144, pid: 25511) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 148, pid: 25515) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 139, pid: 25506) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 153, pid: 25520) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 149, pid: 25516) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 137, pid: 25504) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 146, pid: 25513) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 140, pid: 25507) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 138, pid: 25505) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 142, pid: 25509) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 335, pid: 5317) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 44, pid: 29875) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 41, pid: 29872) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 55, pid: 29886) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 58, pid: 29889) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 43, pid: 29874) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 49, pid: 29880) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 51, pid: 29882) exited with status 255
+[comet-28-06.sdsc.edu:mpispawn_2][child_handler] MPI process (rank: 59, pid: 29890) exited with status 255
+[comet-28-11.sdsc.edu:mpispawn_7][child_handler] MPI process (rank: 154, pid: 25521) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 181, pid: 7649) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 165, pid: 21945) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 83, pid: 21132) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 127, pid: 21120) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 337, pid: 5319) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 347, pid: 7562) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 255, pid: 18100) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 33, pid: 18325) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 100, pid: 27798) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 105, pid: 27803) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 102, pid: 27800) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 113, pid: 27811) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 106, pid: 27804) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 99, pid: 27797) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 94, pid: 21143) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 98, pid: 21147) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 97, pid: 21146) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 81, pid: 21130) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 80, pid: 21129) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 87, pid: 21136) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 89, pid: 21138) exited with status 255
+[comet-28-08.sdsc.edu:mpispawn_4][child_handler] MPI process (rank: 92, pid: 21141) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 124, pid: 21117) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 136, pid: 21129) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 128, pid: 21121) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 120, pid: 21113) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 119, pid: 21111) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 131, pid: 21124) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 132, pid: 21125) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 261, pid: 18106) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 253, pid: 18098) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 251, pid: 18096) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 368, pid: 19194) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 287, pid: 15300) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 220, pid: 22637) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 223, pid: 22640) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 214, pid: 22631) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 248, pid: 26756) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 249, pid: 26757) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 286, pid: 15299) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 284, pid: 15297) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 275, pid: 15288) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 277, pid: 15290) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 276, pid: 15289) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 272, pid: 15285) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 280, pid: 15293) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 283, pid: 15296) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 278, pid: 15291) exited with status 255
+[comet-28-18.sdsc.edu:mpispawn_14][child_handler] MPI process (rank: 288, pid: 15301) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 67, pid: 1716) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 63, pid: 1712) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 311, pid: 7278) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 319, pid: 7286) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 309, pid: 7276) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 196, pid: 4204) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 204, pid: 4212) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 211, pid: 4219) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 199, pid: 4207) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 208, pid: 4216) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 15, pid: 31811) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 203, pid: 4211) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 205, pid: 4213) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 195, pid: 4203) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 197, pid: 4205) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 201, pid: 4209) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 207, pid: 4215) exited with status 255
+[comet-28-14.sdsc.edu:mpispawn_10][child_handler] MPI process (rank: 212, pid: 4220) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 5, pid: 31801) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 103, pid: 27801) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 359, pid: 7574) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 363, pid: 7578) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 361, pid: 7576) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 360, pid: 7575) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 348, pid: 7563) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 354, pid: 7569) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 350, pid: 7565) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 352, pid: 7567) exited with status 255
+[comet-28-33.sdsc.edu:mpispawn_18][child_handler] MPI process (rank: 346, pid: 7561) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 20, pid: 18312) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 29, pid: 18321) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 30, pid: 18322) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 36, pid: 18328) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 39, pid: 18331) exited with status 255
+[comet-28-13.sdsc.edu:mpispawn_9][child_handler] MPI process (rank: 188, pid: 7656) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 159, pid: 21939) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 157, pid: 21937) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 161, pid: 21941) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 169, pid: 21949) exited with status 255
+[comet-28-12.sdsc.edu:mpispawn_8][child_handler] MPI process (rank: 173, pid: 21953) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 134, pid: 21127) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 289, pid: 28458) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 342, pid: 5324) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 366, pid: 19192) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 383, pid: 19209) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 374, pid: 19200) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 260, pid: 18105) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 246, pid: 26754) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 247, pid: 26755) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 242, pid: 26750) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 244, pid: 26752) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 232, pid: 26740) exited with status 255
+[comet-28-16.sdsc.edu:mpispawn_12][child_handler] MPI process (rank: 236, pid: 26744) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 65, pid: 1714) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 75, pid: 1724) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 64, pid: 1713) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 60, pid: 1709) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 73, pid: 1722) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 66, pid: 1715) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 61, pid: 1710) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 69, pid: 1718) exited with status 255
+[comet-28-07.sdsc.edu:mpispawn_3][child_handler] MPI process (rank: 77, pid: 1726) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 216, pid: 22633) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 324, pid: 7291) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 310, pid: 7277) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 313, pid: 7280) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 318, pid: 7285) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 314, pid: 7281) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 308, pid: 7275) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 312, pid: 7279) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 316, pid: 7283) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 320, pid: 7287) exited with status 255
+[comet-28-31.sdsc.edu:mpispawn_16][child_handler] MPI process (rank: 322, pid: 7289) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 109, pid: 27807) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 111, pid: 27809) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 108, pid: 27806) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 114, pid: 27812) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 115, pid: 27813) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 101, pid: 27799) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 116, pid: 27814) exited with status 255
+[comet-28-09.sdsc.edu:mpispawn_5][child_handler] MPI process (rank: 117, pid: 27815) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 8, pid: 31804) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 25, pid: 18317) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 22, pid: 18314) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 27, pid: 18319) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 23, pid: 18315) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 31, pid: 18323) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 35, pid: 18327) exited with status 255
+[comet-28-04.sdsc.edu:mpispawn_1][child_handler] MPI process (rank: 38, pid: 18330) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 135, pid: 21128) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 126, pid: 21119) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 129, pid: 21122) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 123, pid: 21116) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 121, pid: 21114) exited with status 255
+[comet-28-10.sdsc.edu:mpispawn_6][child_handler] MPI process (rank: 133, pid: 21126) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 303, pid: 28472) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 302, pid: 28471) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 293, pid: 28462) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 299, pid: 28468) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 295, pid: 28464) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 291, pid: 28460) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 297, pid: 28466) exited with status 255
+[comet-28-19.sdsc.edu:mpispawn_15][child_handler] MPI process (rank: 305, pid: 28474) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 336, pid: 5318) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 345, pid: 5327) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 338, pid: 5320) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 329, pid: 5311) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 332, pid: 5314) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 330, pid: 5312) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 333, pid: 5315) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 327, pid: 5309) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 331, pid: 5313) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 328, pid: 5310) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 334, pid: 5316) exited with status 255
+[comet-28-32.sdsc.edu:mpispawn_17][child_handler] MPI process (rank: 344, pid: 5326) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 265, pid: 18110) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 254, pid: 18099) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 257, pid: 18102) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 252, pid: 18097) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 256, pid: 18101) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 258, pid: 18103) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 263, pid: 18108) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 264, pid: 18109) exited with status 255
+[comet-28-17.sdsc.edu:mpispawn_13][child_handler] MPI process (rank: 269, pid: 18114) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 369, pid: 19195) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 378, pid: 19204) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 382, pid: 19208) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 373, pid: 19199) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 375, pid: 19201) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 367, pid: 19193) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 371, pid: 19197) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 377, pid: 19203) exited with status 255
+[comet-28-34.sdsc.edu:mpispawn_19][child_handler] MPI process (rank: 379, pid: 19205) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 218, pid: 22635) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 219, pid: 22636) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 221, pid: 22638) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 12, pid: 31808) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 16, pid: 31812) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 3, pid: 31799) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 6, pid: 31802) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 10, pid: 31806) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 7, pid: 31803) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 1, pid: 31797) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 9, pid: 31805) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 13, pid: 31809) exited with status 255
+[comet-28-02.sdsc.edu:mpispawn_0][child_handler] MPI process (rank: 18, pid: 31814) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 222, pid: 22639) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 224, pid: 22641) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 226, pid: 22643) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 227, pid: 22644) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 228, pid: 22645) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 229, pid: 22646) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 230, pid: 22647) exited with status 255
+[comet-28-15.sdsc.edu:mpispawn_11][child_handler] MPI process (rank: 231, pid: 22648) exited with status 255
+
+[Simulation begins] Sun Dec  6 16:18:55 2020
+
+dt= 7.41769e-05, # iters = 2000
+m x n = 8000 x 8000
+processor geometry: 16 x 30
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Sun Dec  6 16:18:57 2020
+
+End at iteration 1999
+Max norm: 9.99936e-01, L2norm: 6.74579e-01
+Running Time: 2.13602 sec. [1.68e+03 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 8000 8000    16 30      Y     2000  2.136 1678    9.99936e-01 6.74579e-01
+  -----
